@@ -22,7 +22,7 @@ function sm_update() {
 
 // -- application
 var sm = new mainControl();
-sm.goto(sm.s_start);
+sm.start();
 sm_add(sm);
 
 var element = document.getElementById('hoge');
