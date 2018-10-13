@@ -27,3 +27,10 @@ _start-server.bat -- call http-server
 
 # SAMPLE
 
+## SYN-G-GEN STATE CHART
+
+![](https://raw.githubusercontent.com/NNNIC/psgg-javascript-sample/master/wiki/sample.png)
+
+## EXECUTE
+
+![](https://raw.githubusercontent.com/NNNIC/psgg-javascript-sample/master/wiki/sgg.gif)
