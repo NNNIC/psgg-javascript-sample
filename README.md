@@ -6,7 +6,7 @@ StateGo Javascript sample
 
 Windows  
 node.js  
-StateGo https://statego.programanic.com/
+[StateGo](https://statego.programanic.com/index-e.html)
 
 # INSTRUCTION
 
