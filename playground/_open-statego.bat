@@ -1,7 +1,7 @@
 cd /d %~dp0
 if exist doc/TestControl.psgg goto :_open
 
-start  SYN-G-GEN
+start  StateGo
 :: Please set path for SYN-G-GEN if it does not work
 pause
 exit
