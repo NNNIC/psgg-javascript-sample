@@ -14,9 +14,11 @@ node.js
    If a statemachine files exists, run clean.bat
 2. Execute StateGo.  
 3. Select "Create New State machine".  
+Å@ a) Changed the starter kit path to '(this project folder)/starterkit'
+   b) Choose 'Javascript starter kit'.
 4. Set TestControl as state machine name.  
-5. Set document folder to playground/doc  
-6. Set source folder to playground/public/js  
+5. Set document folder to '(this project folder)/playground/doc'.
+6. Set source folder to '(this project folder)/playground/public/js'.  
 7. Create your state mchine.
 
 ## FILES
@@ -29,11 +31,16 @@ _start-server.bat -- call http-server
 
 ## StateGo STATE CHART
 
-![](https://raw.githubusercontent.com/NNNIC/psgg-javascript-sample/master/wiki/sample.png)
+![](https://raw.githubusercontent.com/NNNIC/psgg-javascript-sample/master/wiki/sample2.png)
 
 ## EXECUTE
 
-![](https://raw.githubusercontent.com/NNNIC/psgg-javascript-sample/master/wiki/sgg.gif)
+![](https://raw.githubusercontent.com/NNNIC/psgg-javascript-sample/master/wiki/result.png)
 
 
 [How to play](https://youtu.be/0e9A6kc7c7I)
+
+# NOTE
+
+The "playground/doc-ref" folder has the sample code.
+
