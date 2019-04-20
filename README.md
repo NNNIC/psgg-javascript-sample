@@ -5,7 +5,7 @@ StateGo Javascript sample
 # ENVIRONMENT
 
 Windows  
-node.js  
+Adobe Brackets
 [StateGo](https://statego.programanic.com/index-e.html)
 
 # INSTRUCTION
