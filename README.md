@@ -24,8 +24,7 @@ node.js
 ## FILES
 
 _clean.bat -- delete files that are related with a state machine.  
-_open-syn-g-gen.bat -- Execute StateGo. Note that it requires path for executing.  
-_start-server.bat -- call http-server
+_open-statego.bat -- Execute StateGo. Note that it requires path for executing.  
 
 # SAMPLE
 
