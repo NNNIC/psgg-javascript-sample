@@ -38,7 +38,7 @@ _start-server.bat -- call http-server
 ![](https://raw.githubusercontent.com/NNNIC/psgg-javascript-sample/master/wiki/result.png)
 
 
-[How to play](https://youtu.be/0e9A6kc7c7I)
+[play video](https://youtu.be/0e9A6kc7c7I)
 
 # NOTE
 
