@@ -68,16 +68,105 @@ TestControl.prototype.br_no = function(st) {
     }
 };
 
-// [SYN-G-GEN OUTPUT START] indent(0) $/./$
+// [STATEGO OUTPUT START] indent(0) $/./$
 //  psggConverterLib.dll converted from TestControl.xlsx. 
 /*
     S_0001
-    new state
 */
 TestControl.prototype.S_0001 = function(first) {
     if (first)
     {
-        alert("!");
+        this.node_xx = document.getElementById('xx');
+    }
+    if (!this.hasnext()) {
+        this.goto(this.S_0002);
+    }
+    if (this.hasnext()) {
+        this.setnowait();
+    }
+};
+/*
+    S_0002
+*/
+TestControl.prototype.S_0002 = function(first) {
+    if (first)
+    {
+        this.node_xx.innerHTML = 'HOGE HOGE GAA';
+    }
+    if (!this.hasnext()) {
+        this.goto(this.S_0003);
+    }
+};
+/*
+    S_0003
+*/
+TestControl.prototype.S_0003 = function(first) {
+    if (first)
+    {
+        this.counter = 0;
+    }
+    if (!this.hasnext()) {
+        this.goto(this.S_0004);
+    }
+};
+/*
+    S_0004
+    ADD SMALL IMAGE
+*/
+TestControl.prototype.S_0004 = function(first) {
+    if (first)
+    {
+        const c = document.createElement('span');
+        c.id = 'container';
+        c.innerHTML = '<img src = "http://statego.programanic.com/img/sgg.png" width="100px"></img>';
+        document.body.appendChild(c);
+    }
+    if (!this.hasnext()) {
+        this.goto(this.S_0005);
+    }
+    if (this.hasnext()) {
+        this.setnowait();
+    }
+};
+/*
+    S_0005
+    wait 2 sec
+*/
+TestControl.prototype.S_0005 = function(first) {
+    if (first)
+    {
+        this.timer = Date.now() + 2000;
+    }
+    if (Date.now() < this.timer) { return; }
+    if (!this.hasnext()) {
+        this.goto(this.S_0006);
+    }
+};
+/*
+    S_0006
+*/
+TestControl.prototype.S_0006 = function(first) {
+    if (first)
+    {
+        this.counter++;
+    }
+    if (this.counter < 5) { this.goto( this.S_0004 ); }
+    else { this.goto( this.S_0008 ); }
+    if (this.hasnext()) {
+        this.setnowait();
+    }
+};
+/*
+    S_0008
+    ADD IMAGE
+*/
+TestControl.prototype.S_0008 = function(first) {
+    if (first)
+    {
+        const c = document.createElement('div');
+        c.id = 'container';
+        c.innerHTML = '<img src = "http://statego.programanic.com/img/sgg.png"></imsg>';
+        document.body.appendChild(c);
     }
     if (!this.hasnext()) {
         this.goto(this.S_END);
@@ -98,7 +187,7 @@ TestControl.prototype.S_START = function(first) {
 };
 
 
-// [SYN-G-GEN OUTPUT END]
+// [STATEGO OUTPUT END]
 
 // == write your code ==
 

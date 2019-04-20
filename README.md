@@ -34,3 +34,6 @@ _start-server.bat -- call http-server
 ## EXECUTE
 
 ![](https://raw.githubusercontent.com/NNNIC/psgg-javascript-sample/master/wiki/sgg.gif)
+
+
+[How to play](https://youtu.be/0e9A6kc7c7I)
