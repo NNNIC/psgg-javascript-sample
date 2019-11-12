@@ -20,7 +20,7 @@ Open it.
 ![](https://raw.githubusercontent.com/NNNIC/psgg-javascript-sample/master/wiki/result.png)
 
 
-[play video](https://youtu.be/0e9A6kc7c7I)
+[play video](https://youtu.be/JnJMZE6cnS0)
 
 
 
